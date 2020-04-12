@@ -5,6 +5,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Oswald', sans-serif;
+  font-size: 110%;
 }
 h1 {
   font-size: 300%;
@@ -22,8 +23,8 @@ h1 {
   font-size: 200%;
 }
 .square {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-style: solid;
   border-color: black;
 }
@@ -35,8 +36,8 @@ h1 {
   flex-flow: row wrap;
   justify-content: center;
   align-content: center;
-  width: 480px;
-  height: 480px;
+  width: 618px;
+  height: 618px;
   background: url(ground.jpg);
   background-size: cover;
   border: solid 5px black;
@@ -48,6 +49,7 @@ h1 {
   background-size: cover;
 }
 a {
+  
   display: block;
   position: absolute;
   bottom: 1em;
