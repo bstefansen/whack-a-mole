@@ -1,0 +1,57 @@
+html, body {
+  text-align: center;
+  background: url(background.jpg);
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
+  font-size: 300%;
+  background: black;
+  padding: 0.5em;
+  margin-top: 0;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+}
+#info {
+  font-size: 200%;
+}
+.square {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: black;
+}
+
+.grid {
+  margin: auto;
+  margin-bottom: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 480px;
+  height: 480px;
+  background: url(ground.jpg);
+  background-size: cover;
+  border: solid 5px black;
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+.mole {
+  background-image: url(mole2.png);
+  background-size: cover;
+}
+a {
+  display: block;
+  position: absolute;
+  bottom: 1em;
+  margin: auto;
+  width: 100%;
+
+}
